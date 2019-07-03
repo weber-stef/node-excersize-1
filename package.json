@@ -4,7 +4,6 @@
   "description": "first node-project reading file stats",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon -w starts to watch my index.js, I had to put this line in after installing nodemon, it was  not done automatically",
     "dev": "nodemon -w index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,5 +11,8 @@
   "license": "MIT",
   "devDependencies": {
     "nodemon": "^1.19.1"
+  },
+  "dependencies": {
+    "nodejs-fs-utils": "^1.1.2"
   }
 }
