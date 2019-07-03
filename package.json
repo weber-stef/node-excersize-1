@@ -1,0 +1,16 @@
+{
+  "name": "excersize-1",
+  "version": "0.1.0",
+  "description": "first node-project reading file stats",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon -w starts to watch my index.js, I had to put this line in after installing nodemon, it was  not done automatically",
+    "dev": "nodemon -w index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Stefan Wruck <vitatech@gmx.de>",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
